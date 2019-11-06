@@ -5,9 +5,9 @@
 ## Makefile
 ##
 
-SRC = main.c draw.c duck.c score_ammo.c doge.c struct.c intro.c useful_function.c duck_fly.c texture.c number.c
+SRC = src/main.c src/draw.c src/duck.c src/score_ammo.c src/doge.c src/struct.c src/intro.c src/useful_function.c src/duck_fly.c src/texture.c src/number.c
 
-NAME = my_hunter
+NAME = duck_hunt
 
 INCLUDES = -lcsfml-graphics -lcsfml-audio -lcsfml-window -lcsfml-system
 
